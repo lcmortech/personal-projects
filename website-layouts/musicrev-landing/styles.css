@@ -19,7 +19,7 @@ html {
 
 body {
   color: white;
-  font-family: 'sans-serif';
+  font-family: 'Poppins','sans-serif';
     background-color: #000;
 }
 
@@ -27,9 +27,33 @@ body {
   color: yellow;
 }
 
-#header {
-  
-  
+header {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.headline-header {
+  font-size: 3rem;
+}
+
+.headline-header--tag {
+  text-align: center;
+}
+
+.nav-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  margin: 1rem;
+}
+.nav-list--item {
+  text-decoration: none;
+  display: inline-block;
+  border: 2px solid white;
+  padding: 5px;
+  margin: 2px;
+  border-radius: 10px;
 }
 
 
