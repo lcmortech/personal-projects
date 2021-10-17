@@ -17,9 +17,8 @@ html {
 }
 
 body {
-  color: white;
+  color: #fff;
   font-family: 'Poppins','sans-serif';
-    background-color: #000;
 }
 
 .highlight {
@@ -43,7 +42,7 @@ header {
 .nav-list {
   display: flex;
   flex-flow: row wrap;
-  justify-content: flex-end;
+  justify-content: center;
   margin: 1rem;
 }
 .nav-list--item {
@@ -53,6 +52,38 @@ header {
   padding: 5px;
   margin: 2px;
   border-radius: 10px;
+}
+
+main {
+  position: relative;
+}
+
+.contact {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 300px;
+  background-color: #000;
+  padding: 20px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  
+}
+
+.contact input {
+  display: block;
+  margin: 5px;
+}
+
+form button {
+  display: inline-block;
+  border: 2px solid white;
+  padding: 5px;
+  margin: 10px auto;
+  border-radius: 10px;
+  width: 100px;
 }
 
 
