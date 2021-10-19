@@ -21,6 +21,10 @@ body {
   font-family: 'Poppins','sans-serif';
 }
 
+a {
+  text-decoration: none;
+}
+
 .highlight {
   color: yellow;
 }
@@ -41,6 +45,7 @@ header {
   }
 
 .nav-list {
+  list-style: none;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -90,6 +95,26 @@ form button {
   width: 100px;
 }
 
+footer {
+  background: #000;
+  width: 100vw;
+  padding: 5px;
+}
+
+.footer-list {
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  }
+
+.footer-list--item {
+  text-decoration: none;
+  display: block;
+  padding: 5px;
+  margin: 2px;
+}
+
 @media screen and (min-width: 480px)  /* ====Tablets==== */ {
 
 
@@ -97,6 +122,10 @@ form button {
   body {
     color: #fff;
     font-family: 'Poppins','sans-serif';
+  }
+
+  a {
+    text-decoration: none;
   }
 
   .highlight {
@@ -165,6 +194,26 @@ form button {
     margin: 10px auto;
     border-radius: 10px;
     width: 100px;
+  }
+
+  footer {
+    background: #000;
+    width: 100vw;
+    padding: 5px;
+  }
+  
+  .footer-list {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    }
+  
+  .footer-list--item {
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    margin: 2px;
   }
 
 }
