@@ -7,7 +7,7 @@ function App() {
     <Home />
     <Navbar />
     <About />
-    <Stories />
+    <Projects />
     </>
 )
 }
