@@ -1,8 +1,10 @@
-const Navbar = ()=>{
+import React from 'react';
+
+const Navbar = (props)=>{
     return (
-        <div>
-            <h1>Developer Name</h1>
-        </div>
+        
+            <h1>Developer Name</h1>;
+        
     
     )
 }
