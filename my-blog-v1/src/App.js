@@ -6,8 +6,13 @@ function App() {
     <>
     <Home />
     <Navbar />
+    <Header />
+    <Main />
     <About />
     <Projects />
+    <Blog />
+    <Archive />
+    <Footer />
     </>
 )
 }
