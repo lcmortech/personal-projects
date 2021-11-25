@@ -6,13 +6,23 @@ const path = require('path');
 const app = express();
 
 //Configure Mongoose to Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017/cms-build',{userNewUrlParser: true})
-    .then(res => {
-    console.log('MongoDB connected successfully')
-    .catch(
-        console.log('Database connect failed')
-    )
-})
+//mongoose.connect('mongodb://localhost:27017/cms-build',{userNewUrlParser: true})
+//    .then(res => {
+//    console.log('MongoDB connected successfully')
+//    .catch(
+//        console.log('Database connect failed')
+//    )
+//})
+
+async mongoose.connect('mongodb://localhost:27017/cms-build',{userNewUrlParser: true})
+    try {
+        let message = await console.log('MongoDB has connected successfully')
+    }
+    
+    catch {
+        let message = await console.log('MongoDB has failed to connect')
+}
+
 
 //Configure express
 app.use(express.json());
