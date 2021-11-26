@@ -1,21 +1,42 @@
-/* Applies to the entire body of the HTML document (except where overridden by more specific
-selectors). */
+*,
+*:before,
+*:after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
-  margin: 25px;
-  background-color: rgb(240,240,240);
-  font-family: arial, sans-serif;
-  font-size: 14px;
+  height: 100vh;
+  background: #066acd;
 }
 
-/* Applies to all <h1>...</h1> elements. */
-h1 {
-  font-size: 35px;
-  font-weight: normal;
-  margin-top: 5px;
+.container {
+  width: 40%;
+  min-width: 450px;
+  position: absolute;
+  min-height: 100px;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  background: white;
+  border-radius: 10px;
 }
 
-/* Applies to all elements with <... class="someclass"> specified. */
-.someclass { color: red; }
+#newtask {
+  position: relative;
+  padding: 30px 20px;
+}
 
-/* Applies to the element with <... id="someid"> specified. */
-#someid { color: green; }
+#newtask input {
+  width: 75%;
+  height: 45px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  border: 2px solid #d1d3d4;
+  padding: 12px;
+  color: #111;
+  font-weight: 500;
+  position: relative;
+  border-radius: 5px;
+}
