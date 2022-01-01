@@ -7,11 +7,18 @@
 </head>
 <body>
     <div id="app">
-        Hello Vue 3
+        {{ greeting }}
+        <input v-model="greeting" />
     </div>
     <script src="https://unpkg.com/vue@next"></script>
     <script src="">
-        let app = Vue.createApp({})
+        let app = Vue.createApp({
+            data: function() {
+                return {
+                    greeting: 'Hello Vue 3!'
+                }
+            }
+        })
         app.mount('#app')
     </script>
 </body>
