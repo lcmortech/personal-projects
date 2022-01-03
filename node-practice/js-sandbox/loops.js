@@ -36,5 +36,9 @@ for (let i = 0; i < cars.length; i++){
 //for in grabs the index/key/property
 // for in when using array[index], grabs the value
 //for of grabs the value
-//for loop grabs the index/key/property
-//for loop when using array[index], grabs the value
+//classic for loop grabs the index/key/property
+//classic for loop when using array[index], grabs the value
+//Conclusion:
+//for in can be used in place of classic loop for time to retrieve index/property
+//for of can be used in place of forEach for time to retrieve value/item in array
+//for in is the most useful here, as it can also be used to retrieve the value with array[index]
