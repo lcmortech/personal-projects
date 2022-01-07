@@ -15,3 +15,6 @@ if (typeof  unknownVar === 'string' && unknownVar.length > 0){
 else{
 console.log('false');
 }
+
+//If you want to check for blank strings (whitespace):
+if
