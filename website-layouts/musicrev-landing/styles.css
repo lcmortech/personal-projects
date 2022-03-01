@@ -4,14 +4,13 @@
 }
 
 html {
-
+  box-sizing: border-box;
 }
 
 body{
   color: #fff;
   font-family: 'Poppins', sans-serif;
   font-size: 100%;
-  box-sizing: border-box;
   background-image:linear-gradient( 
 		rgba(0, 0, 0, 0.6),
 		rgba(0, 0, 0, 0.6)), url(./Colorful-Vibes-Headphones-Wallpaper.jpg);
@@ -41,6 +40,7 @@ header {
 
 .headline__header {
   text-align: center;
+  font-weight: bold;
   font-size: 3rem;
   }
 
@@ -146,6 +146,7 @@ footer {
 
   .headline__header {
     font-size: 3rem;
+    font-weight: bold;
   }
 
   .headline__header--tag {
@@ -163,7 +164,7 @@ footer {
     display: inline-block;
     border: 2px solid white;
     padding: 5px;
-    margin: 2px;
+    margin: 5px;
     border-radius: 10px;
   }
 
