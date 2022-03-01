@@ -40,7 +40,7 @@ header {
 
 .headline__header {
   text-align: center;
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 3rem;
   }
 
@@ -146,7 +146,7 @@ footer {
 
   .headline__header {
     font-size: 3rem;
-    font-weight: bold;
+    font-weight: bolder;
   }
 
   .headline__header--tag {
