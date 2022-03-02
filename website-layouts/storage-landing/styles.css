@@ -9,8 +9,12 @@ html {
 }
 
 body {
-    font-family: Tahoma, sans-serif;
+    font-family: 'Teko', sans-serif;
     color: #fff;
+}
+
+.logo__box--text {
+    font-family: 'Pacifico', cursive;
 }
 
 header {
